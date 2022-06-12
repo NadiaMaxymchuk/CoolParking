@@ -5,13 +5,10 @@
       "hasMany": "Model",
       "belongsTo": "Model"
     }
-  
-  "Model"{
   "User": {},
   "Post": {},
   "Comment": {},
   "Person": {},
   "City": {}
-}
 }
 }
