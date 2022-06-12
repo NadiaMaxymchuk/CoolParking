@@ -1,4 +1,1 @@
-{
-  "Parking": {
-    "balance": { "int": { "regexp": "[A-Z][a-z]{5,10}" } }
-  }
+{ "likes": { "int": { "min": 0, "max": 1000000 } } }
