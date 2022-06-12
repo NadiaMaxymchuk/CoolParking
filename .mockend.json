@@ -1,11 +1,4 @@
 {
   "Parking": {
     "balance": { "int": { "regexp": "[A-Z][a-z]{5,10}" } }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
   }
-}
