@@ -1,5 +1,5 @@
 {
-  "Parkink": {
+  ["Parkink": {
     "balance": { "int": {"min": 0, "max": 1000000} }
-  }
+  }]
 }
