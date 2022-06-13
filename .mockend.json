@@ -1,11 +1,5 @@
 {
   "Parking": {
-    "balance": { "int": {} }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
+    "balance": { "int": {"min": 0, "max": 1000000 } }
   }
 }
