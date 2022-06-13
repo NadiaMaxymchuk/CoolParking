@@ -1,5 +1,5 @@
 {
-  "title": {
-    "loremWords": { "minLength": 5, "maxLength": 20 }
+  "parkink": {
+    "balance": { "balance" {"int": {"min": 0, "max": 1000000}} }
   }
 }
