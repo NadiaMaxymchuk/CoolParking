@@ -1,5 +1,5 @@
 {
-  "Balance": [{
-    "balance": 1
-  }]
+  "Balance": {
+    "balance": 10
+  }
 }
