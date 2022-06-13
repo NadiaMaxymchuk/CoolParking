@@ -1,14 +1,7 @@
 {
-  "ModelName": {
-    "fieldName": {
-      "<type>": {},
-      "hasMany": "Model",
-      "belongsTo": "Model"
-    }
-  "User": {},
-  "Post": {},
-  "Comment": {},
-  "Person": {},
-  "City": {}
-}
+  "User": {
+    "name": { "string": { "minLength": 3, "maxLength": 10 } },
+    "online": { "boolean": {} },
+    "picture": { "regexp": "https://…" }
+  }
 }
