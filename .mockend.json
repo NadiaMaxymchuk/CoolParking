@@ -1,23 +1,23 @@
 {
-   "Vehicles2":{
-      "balanceV":{
-         "regexp":"[1-9]{2,28}\\.[0-9]{1,28}m"
+   "Vehicles": {
+      "balanceV": {
+         "regexp": "[1-9]{2,28}\\.[0-9]{1,28}m"
       },
-      "vehicleType":{
-         "int":[
+      "vehicleType": {
+         "int": [
             1,
             2,
             3,
             4
          ]
       },
-      "VehicleId":{
-         "regexp":"[A-Z][A-Z]\\-[0-9][0-9][0-9][0-9]\\-[A-Z][A-Z]"
+      "VehicleId": {
+         "regexp": "[A-Z][A-Z]\\-[0-9][0-9][0-9][0-9]\\-[A-Z][A-Z]"
       }
    },
-  "Balance":{
-      "balance":{
-         "regexp":"[1-9]{2,28}\\.[0-9]{1,28}m"
+  "Balance": {
+      "balance": {
+         "regexp": "[1-9]{2,28}\\.[0-9]{1,28}m"
       }
    }
 }
