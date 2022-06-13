@@ -1,5 +1,1 @@
-{
-  "Parking": {
-    "balance": { "int": {"min": 0, "max": 1000000 } }
-  }
-}
+{ "firstName": { "regexp": "[A-Z][a-z]{5,10}" } }
