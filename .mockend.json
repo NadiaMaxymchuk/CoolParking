@@ -1,11 +1,5 @@
 {
   "Post": {
     "balance": { "int": {"min": 0, "max": 1000000 } }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
   }
 }
