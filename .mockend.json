@@ -1,7 +1,11 @@
 {
-  "User": {
-    "name": { "string": { "minLength": 3, "maxLength": 10 } },
-    "online": { "boolean": {} },
-    "picture": { "regexp": "https://…" }
+  "Parking": {
+    "balance": { "int": {} }
+  },
+  "Comment": {
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
+    }
   }
 }
