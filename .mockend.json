@@ -4,7 +4,7 @@
       "regexp": "[1-9]{2,28}\\.[0-9]{1,28}m" 
     }
   },
-  "Comment": {
+  "Vehicles": {
     "balance": {
       "belongsTo": "Balance"
     },
