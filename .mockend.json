@@ -1,8 +1,11 @@
 {
-  "name": {
-    "string": [
-      "Thor",
-      "Loki"
-    ]
+  "Post": {
+    "balance": { "string": {} }
+  },
+  "Comment": {
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
+    }
   }
 }
