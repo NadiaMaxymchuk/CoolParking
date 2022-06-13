@@ -1,7 +1,7 @@
 {
    "Vehiclessssss": {
       "balance": {
-         "belongsTo": "Balance"
+         "belongsTo": "balance"
       },
       "vehicleType": {
          "int": [
