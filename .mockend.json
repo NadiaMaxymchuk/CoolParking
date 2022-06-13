@@ -1,5 +1,8 @@
 {
   "Balance": {
-    "balance": { "string": { 10 } }
+    "balance": { 
+      "int": [
+        10.5]
+    }
   }
 }
