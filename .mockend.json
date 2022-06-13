@@ -1,5 +1,5 @@
 {
   "Balance": {
-    "balance": "number": { 10 } }
+    "balance": { "number": { 10 } }
   }
 }
