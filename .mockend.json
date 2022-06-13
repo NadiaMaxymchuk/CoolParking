@@ -1,7 +1,7 @@
 {
    "Vehiclessssss": {
       "balance": {
-         "regexp": "[1-9]{2,28}\\.[0-9]{1,28}m"
+         "belongsTo": "Balance"
       },
       "vehicleType": {
          "int": [
