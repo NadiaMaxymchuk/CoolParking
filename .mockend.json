@@ -43,7 +43,11 @@
       "sum": {
          "regexp": "[1-9]{2,28}\\.[0-9]{1,28}"
       },
-      "transactionDate: {
-    "dateTime": {}
+      "createdAt: {
+    "dateTime": {
+      "min": "2010-01-01T00:00:00Z",
+      "max": "2020-12-31T23:59:59Z"
+    }
+  }
    }
 }
